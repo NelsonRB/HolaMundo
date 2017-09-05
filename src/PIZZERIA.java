@@ -275,10 +275,11 @@ public class PIZZERIA extends javax.swing.JFrame {
     }//GEN-LAST:event_btnTotalActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
-        
-        if (JOptionPane.showConfirmDialog(null, "¿Desea realmente salir del sistema?",
+        //cambio la pregunta
+        if (JOptionPane.showConfirmDialog(null, "¿Desea salir del sistema?",
                 "Salir del sistema", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
             System.exit(0);
+        
         
     }//GEN-LAST:event_btnSalirActionPerformed
 
